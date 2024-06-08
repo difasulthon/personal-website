@@ -22,3 +22,16 @@ Day 2 contains website material, UI/UX Design, and figma.
 ### About Task
 
 There is an assignment to start the progress of the month 1 project, which is the creation of a personal website design using figma. In this task, I used [this website](https://coolors.co/palettes/trending) to determine the color palette that is suitable for my website. I also tried to imitate the behavior on the personal website of [Prawito Hudoro](https://prawito.com) for me to follow the user experience pattern. I also tried to apply consistency in the design that I made where there are certain shapes and colors used for clickable components. The resulting output can be seen in this [reference](https://www.figma.com/design/CQ9EnK6lsBx3GyCpFEy8as/difasulthon.com?node-id=6-2&t=iLQ0SF3TC2NMO3fH-0).
+
+## Day 3
+
+Day 3 contains material on the introduction to the code editor and markdown files.
+
+- Introduction to the operating system.
+- Introduction to the code editor and various characters that are often used in writing code.
+- Introduction to convention in naming files.
+- How to create markdown files and various advantages that can be utilized in creating markdown files.
+
+### About Task
+
+There is an assignment given in the form of creating a markdown file containing information about the personal website created. i use [markdown cheat seet](https://markdownguide.offshoot.io/cheat-sheet/) to be able to apply some of the features of the markdown file. I applied its various advantages, such as heading to make the title text different, creating table elements, adding images, and adding url links.
