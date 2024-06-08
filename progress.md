@@ -8,3 +8,17 @@ Day 1 consisted of introductions.
 - Explanation of the rules during the bootcamp.
 - The introduction of what material will be learned and what tools are needed during the bootcamp.
 - On day 1 it has also been announced that there is a project that must be done.
+
+## Day 2
+
+Day 2 contains website material, UI/UX Design, and figma.
+
+- Explanation of the types of websites.
+- The difference between ui and ux.
+- How to make ui/ux design.
+- Exposure to various tools that can be used to create ui/ux design for a website.
+- Basic practice of making designs in figma.
+
+### About Task
+
+There is an assignment to start the progress of the month 1 project, which is the creation of a personal website design using figma. In this task, I used [this website](https://coolors.co/palettes/trending) to determine the color palette that is suitable for my website. I also tried to imitate the behavior on the personal website of [Prawito Hudoro](https://prawito.com) for me to follow the user experience pattern. I also tried to apply consistency in the design that I made where there are certain shapes and colors used for clickable components. The resulting output can be seen in this [reference](https://www.figma.com/design/CQ9EnK6lsBx3GyCpFEy8as/difasulthon.com?node-id=6-2&t=iLQ0SF3TC2NMO3fH-0).
