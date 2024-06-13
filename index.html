@@ -4,134 +4,270 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Difa Sulthon</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <!-- navigation -->
-  <section>
-    <span>Welcome</span>
-    <span>Profile</span>
-    <span>Experience</span>
-    <span>Projects</span>
-    <hr>
-  </section>
+  <div class="navbar">
+    <img src="./images//logo.png" alt="difasulthon" class="logo-difa">
+    <div class="menu-container">
+      <h1 class="menu-item">Welcome</h1>
+      <h1 class="menu-item">Profile</h1>
+      <h1 class="menu-item">Experience</h1>
+      <h1 class="menu-item">Projects</h1>
+    </div>
+  </div>
 
   <!-- Welcome -->
-   <section>
-    <span>
-      <img src="./images/my-photo.jpg" alt="Difa Sulthon" width="300px">
-    </span>
-    <section>
-        <h3>Hello, I'm</h3>
-        <h2>Muhammad Difa Sulthon Diani</h2>
-        <p>“A front end developer who will give the best effort for your projects. I have about 4 years of experience in developing mobile applications using React Native with strong fundamental in Javascript/TypeScript programming language. “</p>
-    </span>
-    <button>texted me</button>
-    <button>download CV</button>
-    <hr>
-   </section>
+   <div class="welcome-container">
+    <div class="welcome-image-container">
+      <img src="./images/difa-photo.png" alt="Difa Sulthon" class="welcome-photo-difa">
+    </div>
+    <div class="welcome-content-container">
+      <div class="welcome-text-container">
+          <h3 class="welcome-title">Hello, I'm</h3>
+          <h2 class="welcome-subtitle">Muhammad Difa Sulthon Diani</h2>
+          <p class="welcome-description">“
+            A front end developer who will give the best effort for your projects. 
+            I have about 4 years of experience in developing mobile applications using React Native with strong 
+            fundamental in Javascript/TypeScript programming language. “
+          </p>
+      </div>
+      <div class="welcome-button-container">
+        <button class="welcome-button" id="welcome-line-button">texted me</button>
+        <button class="welcome-button" id="welcome-solid-button">download CV</button>
+      </div>
+    </div>
+   </div>
 
   <!-- Profile -->
-  <section>
-    <div>
-      <span>
-        <h2>About Me</h2>
-        <p>I have about 4 years of experience in developing and maintaining mobile applications using React Native. I have a strong fundamental in Javascript/TypeScript programming language. Based on these experiences and skills, I was able to contribute to working on a web app with ReactJS and working on the back end with NodeJS. I have experience working on application development with clean code, unit testing, and type checking to write readable and maintainable code. I have the ability to work with agile methods and communicate well with team members such as Back End Developer, QA/Tester, Product Owner, or other stakeholders to achieve goals and deliver the best software product.</p>
-        <button>Connect</button>
-        <button>Follow</button>
-        <button>Follow</button>
-      </span>
-      <span>
-        <h2>Education</h2>
-        <div>
-          <img src="./images/binus-logo.png" alt="binus" width="200px">
-          <h3>Bachelor’s degree of
-            Information System</h3>
-          <p>September 2020 - September 2022</p>
-          <p><strong>Thesis:</strong> User Experience Analysis On BNI Life Mobile Application Using Usability Testing Method</p>
-        </div>
-        <div>
-          <img src="./images/telkom-logo.png" alt="telkom" width="200px">
-          <h3>Associate’s degree of
-            Computer Technology</h3>
-          <p>August 2016 - October 2019</p>
-          <p><strong>Final Project:</strong> Prototype Monitoring System of Human Track In Forest</p>
-        </div>
-      </span>
+  <div class="profile-container">
+    <div class="profile-about-me">
+      <h2 class="profile-title">About Me</h2>
+      <p class="profile-decription">
+        I have about 4 years of experience in developing and maintaining mobile applications using React Native. 
+        I have a strong fundamental in Javascript/TypeScript programming language. 
+        Based on these experiences and skills, I was able to contribute to working on a web app with ReactJS and working on the back end with NodeJS. 
+        I have experience working on application development with clean code, unit testing, and type checking to write readable and maintainable code. 
+        I have the ability to work with agile methods and communicate well with team members such as 
+        Back End Developer, QA/Tester, Product Owner, or other stakeholders to achieve goals and deliver the best software product.
+      </p>
+      <div class="profile-button-container">
+        <button class="profile-button" id="profile-button-linkedin">
+          <img src="./images/linkedin.png" alt="linkedin" class="profile-button-icon">
+          <p>Connect</p>
+        </button>
+        <button class="profile-button" id="profile-button-github">
+          <img src="./images/github.png" alt="linkedin" class="profile-button-icon">
+          <p>Follow</p>
+        </button>
+        <button class="profile-button" id="profile-button-github">
+          <img src="./images/github.png" alt="linkedin" class="profile-button-icon">
+          <p>Follow</p>
+        </button>
+      </div>
     </div>
-    <hr>
-  </section>
+    <div class="profile-education">
+      <h2 class="profile-title">Education</h2>
+      <div class="profile-education-item">
+        <img src="./images/binus-logo.png" alt="binus" class="profile-education-iamge">
+        <div>
+          <h3 class="profile-education-text-title">Bachelor’s degree of
+            Information System</h3>
+          <p class="profile-education-text-subtitle">September 2020 - September 2022</p>
+          <p class="profile-education-text-description"><strong>Thesis:</strong> User Experience Analysis On BNI Life Mobile Application Using Usability Testing Method</p>
+        </div>
+      </div>
+      <div class="profile-education-item">
+        <img src="./images/telkom-logo.png" alt="telkom" class="profile-education-iamge">
+        <div>
+          <h3 class="profile-education-text-title">Associate’s degree of
+            Computer Technology</h3>
+          <p class="profile-education-text-subtitle">August 2016 - October 2019</p>
+          <p class="profile-education-text-description"><strong>Final Project:</strong> Prototype Monitoring System of Human Track In Forest</p>
+      </div>
+      </div>
+    </div>
+  </div>
 
   <!-- Experience -->
-   <section>
-    <span>
-      <img src="./images/jenius-logo.png" alt="jenius" width="200px">
-      <h3>Front End Developer</h3>
-      <h4>PT. Bank Tabungan Pensiunan Nasional</h4>
-      <p>January 2022 - present</p>
-      <p>Jenius is one of digital banking mobile application. I have involved in development of some features in Jenius App such us Credit Card and Transaction. Implement maintainable code with unit testing and maintain code coverage above 95%. Contribute to review pull request from another front end developer. Become a buddy for new front end joiner. Involved in assisting the technical leader in interviewing new joiner candidates.</p>
-    </span>
-    <span>
-      <img src="./images/xsis-logo.png" alt="xsis" width="200px">
-      <h3>Software Engineer</h3>
-      <h4>PT. Xsis Mitra Utama</h4>
-      <p>December 2019 - December 2021</p>
-      <p>Xsis Mitra Utama is one of the IT outsourcing companies. I started working in this company from Xsis Academy with Android Kotlin bootcamp. As a software engineer with specialization in mobile android developer, I was placed in several client companies. I have been placed at PT Telkom Indonesia for 1 month and PT Kalbe Farma for 2 years.</p>
-    </span>
-    <span>
-      <img src="./images/kalbe-logo.png" alt="kalbe" width="200px">
-      <h3>Mobile Developer</h3>
-      <h4>PT.  Kalbe Farma</h4>
-      <p>January 2020 - December 2021</p>
-      <p>Kalbe Farma is one of the companies engaged in the pharmaceutical sector. Involved in development and maintaining Onekalbe Mobile. Involved in development and maintaining several parts in Onekalbe Mobile such as Training Attendance, GA Online, and Asset Management Online. Become mentor for Mobile Developer intern from Bintang Toedjoe.</p>
-    </span>
-    <hr>
-   </section>
+   <div class="experience-container">
+    <div class="experience-item-container">
+      <img src="./images/jenius-logo.png" alt="jenius" class="experience-item-image">
+      <div class="experience-item-text-container">
+        <h3 class="experience-item-title">Front End Developer</h3>
+        <h4 class="experience-item-subtitle">PT. Bank Tabungan Pensiunan Nasional</h4>
+        <p class="experience-item-subtitle-second">January 2022 - present</p>
+        <p class="experience-item-description">
+          Jenius is one of digital banking mobile application. 
+          I have involved in development of some features in Jenius App such us Credit Card and Transaction. 
+          Implement maintainable code with unit testing and maintain code coverage above 95%. 
+          Contribute to review pull request from another front end developer. 
+          Become a buddy for new front end joiner. Involved in assisting the technical leader in interviewing new joiner candidates.
+        </p>
+    </div>
+    </div>
+    <div class="experience-item-container">
+      <img src="./images/xsis-logo.png" alt="xsis" class="experience-item-image">
+      <div class="experience-item-text-container">
+        <h3 class="experience-item-title">Software Engineer</h3>
+        <h4 class="experience-item-subtitle">PT. Xsis Mitra Utama</h4>
+        <p class="experience-item-subtitle-second">December 2019 - December 2021</p>
+        <p class="experience-item-description">
+          Xsis Mitra Utama is one of the IT outsourcing companies. 
+          I started working in this company from Xsis Academy with Android Kotlin bootcamp. 
+          As a software engineer with specialization in mobile android developer, I was placed in several client companies. 
+          I have been placed at PT Telkom Indonesia for 1 month and PT Kalbe Farma for 2 years.
+        </p>
+    </div>
+    </div>
+    <div class="experience-item-container">
+      <img src="./images/kalbe-logo.png" alt="kalbe" class="experience-item-image">
+      <div class="experience-item-text-container">
+        <h3 class="experience-item-title">Mobile Developer</h3>
+        <h4 class="experience-item-subtitle">PT.  Kalbe Farma</h4>
+        <p class="experience-item-subtitle-second">January 2020 - December 2021</p>
+        <p class="experience-item-description">
+          Kalbe Farma is one of the companies engaged in the pharmaceutical sector. 
+          Involved in development and maintaining Onekalbe Mobile. 
+          Involved in development and maintaining several parts in Onekalbe Mobile such as Training Attendance, GA Online, and Asset Management Online. 
+          Become mentor for Mobile Developer intern from Bintang Toedjoe.
+        </p>
+    </div>
+    </div>
+   </div>
 
    <!-- Projects -->
-    <section>
-      <span>
-        <span>
-          <img src="./images/jenius-transaction.png" alt="jenius-tarnsaction" width="90px">
-        </span>
-        <div>
-          <h5>Jenius (Transaction)</h5>
-          <ul>
-            <li>Improvement QRIS performance</li>
-            <li>Enhance Send It Individual</li>
-            <li>Involved in refine code</li>
-          </ul>
-          <p><strong>Tech:</strong> Javascript, React Native, Unit Test using Jest, GraphQL, Git (Bitbucket)</p>
-        </div>
-      </span>
-      <span>
-        <span>
-          <!-- no image -->
-        </span>
-        <div>
-          <h5>Jenius (JRLB)</h5>
-          <ul>
-            <li>Involved in transfer features</li>
-            <li>Create ui kit initially</li>
-            <li>IInvolved in transaction history</li>
-          </ul>
-          <p><strong>Tech:</strong> Typscript, React Native, Unit Test using Jest, GraphQL, Git (Bitbucket)</p>
-        </div>
-      </span>
-      <span>
-        <span>
-          <img src="./images/jenius-cc.png" alt="jenius-tarnsaction" width="90px">
-        </span>
-        <div>
-          <h5>Jenius (Credit Card)</h5>
-          <ul>
-            <li>Involved in card management</li>
-            <li>Involved in split pay promo</li>
-            <li>Involved in yay point</li>
-            <li>Admin web for marketers</li>
-          </ul>
-          <p><strong>Tech:</strong> Javascript, React Native, Unit Test using Jest, GraphQL, Git (Bitbucket)</p>
-        </div>
-      </span>
-    </section>
+  <div class="projects-container">
+    <div class="projects-item-container">
+      <div class="projects-item-image-container">
+        <img src="./images/jenius-transaction.png" alt="jenius-tarnsaction" class="projects-item-image">
+      </div>
+      <div class="projects-item-text-container">
+        <h5 class="projects-item-title">Jenius (Transaction)</h5>
+        <ul class="projects-item-description">
+          <li>Improvement QRIS performance</li>
+          <li>Enhance Send It Individual</li>
+          <li>Involved in refine code</li>
+        </ul>
+        <p class="projects-item-description-second"><strong>Tech:</strong> Javascript, React Native, Unit Test using Jest, GraphQL, Git (Bitbucket)</p>
+      </div>
+    </div>
+    <div class="projects-item-container">
+      <div class="projects-item-image-container">
+        <p class="projects-empty-image">Coming Soon</p>
+      </div>
+      <div class="projects-item-text-container">
+        <h5 class="projects-item-title">Jenius (JRLB)</h5>
+        <ul class="projects-item-description">
+          <li>Involved in transfer features</li>
+          <li>Create ui kit initially</li>
+          <li>IInvolved in transaction history</li>
+        </ul>
+        <p class="projects-item-description-second"><strong>Tech:</strong> Typscript, React Native, Unit Test using Jest, GraphQL, Git (Bitbucket)</p>
+      </div>
+    </div>
+    <div class="projects-item-container">
+      <div class="projects-item-image-container">
+        <img src="./images/jenius-cc.png" alt="jenius-tarnsaction" class="projects-item-image">
+      </div>
+      <div class="projects-item-text-container">
+        <h5 class="projects-item-title">Jenius (Credit Card)</h5>
+        <ul class="projects-item-description">
+          <li>Involved in card management</li>
+          <li>Involved in split pay promo</li>
+          <li>Involved in yay point</li>
+          <li>Admin web for marketers</li>
+        </ul>
+        <p ><strong>Tech:</strong> Javascript, React Native, Unit Test using Jest, GraphQL, Git (Bitbucket)</p>
+      </div>
+    </div>
+    <div class="projects-item-container">
+      <div class="projects-item-image-container">
+        <img src="./images/jenius-transaction.png" alt="jenius-tarnsaction" class="projects-item-image">
+      </div>
+      <div class="projects-item-text-container">
+        <h5 class="projects-item-title">Jenius (Transaction)</h5>
+        <ul class="projects-item-description">
+          <li>Improvement QRIS performance</li>
+          <li>Enhance Send It Individual</li>
+          <li>Involved in refine code</li>
+        </ul>
+        <p class="projects-item-description-second"><strong>Tech:</strong> Javascript, React Native, Unit Test using Jest, GraphQL, Git (Bitbucket)</p>
+      </div>
+    </div>
+    <div class="projects-item-container">
+      <div class="projects-item-image-container">
+        <p class="projects-empty-image">Coming Soon</p>
+      </div>
+      <div class="projects-item-text-container">
+        <h5 class="projects-item-title">Jenius (JRLB)</h5>
+        <ul class="projects-item-description">
+          <li>Involved in transfer features</li>
+          <li>Create ui kit initially</li>
+          <li>IInvolved in transaction history</li>
+        </ul>
+        <p class="projects-item-description-second"><strong>Tech:</strong> Typscript, React Native, Unit Test using Jest, GraphQL, Git (Bitbucket)</p>
+      </div>
+    </div>
+    <div class="projects-item-container">
+      <div class="projects-item-image-container">
+        <img src="./images/jenius-cc.png" alt="jenius-tarnsaction" class="projects-item-image">
+      </div>
+      <div class="projects-item-text-container">
+        <h5 class="projects-item-title">Jenius (Credit Card)</h5>
+        <ul class="projects-item-description">
+          <li>Involved in card management</li>
+          <li>Involved in split pay promo</li>
+          <li>Involved in yay point</li>
+          <li>Admin web for marketers</li>
+        </ul>
+        <p ><strong>Tech:</strong> Javascript, React Native, Unit Test using Jest, GraphQL, Git (Bitbucket)</p>
+      </div>
+    </div>
+    <div class="projects-item-container">
+      <div class="projects-item-image-container">
+        <img src="./images/jenius-transaction.png" alt="jenius-tarnsaction" class="projects-item-image">
+      </div>
+      <div class="projects-item-text-container">
+        <h5 class="projects-item-title">Jenius (Transaction)</h5>
+        <ul class="projects-item-description">
+          <li>Improvement QRIS performance</li>
+          <li>Enhance Send It Individual</li>
+          <li>Involved in refine code</li>
+        </ul>
+        <p class="projects-item-description-second"><strong>Tech:</strong> Javascript, React Native, Unit Test using Jest, GraphQL, Git (Bitbucket)</p>
+      </div>
+    </div>
+    <div class="projects-item-container">
+      <div class="projects-item-image-container">
+        <p class="projects-empty-image">Coming Soon</p>
+      </div>
+      <div class="projects-item-text-container">
+        <h5 class="projects-item-title">Jenius (JRLB)</h5>
+        <ul class="projects-item-description">
+          <li>Involved in transfer features</li>
+          <li>Create ui kit initially</li>
+          <li>IInvolved in transaction history</li>
+        </ul>
+        <p class="projects-item-description-second"><strong>Tech:</strong> Typscript, React Native, Unit Test using Jest, GraphQL, Git (Bitbucket)</p>
+      </div>
+    </div>
+    <div class="projects-item-container">
+      <div class="projects-item-image-container">
+        <img src="./images/jenius-cc.png" alt="jenius-tarnsaction" class="projects-item-image">
+      </div>
+      <div class="projects-item-text-container">
+        <h5 class="projects-item-title">Jenius (Credit Card)</h5>
+        <ul class="projects-item-description">
+          <li>Involved in card management</li>
+          <li>Involved in split pay promo</li>
+          <li>Involved in yay point</li>
+          <li>Admin web for marketers</li>
+        </ul>
+        <p ><strong>Tech:</strong> Javascript, React Native, Unit Test using Jest, GraphQL, Git (Bitbucket)</p>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

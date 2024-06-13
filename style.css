@@ -1,0 +1,354 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Nunito, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 23px;
+  padding-top: 23px;
+  align-items: center;
+  border-bottom: 3px solid #E5E5E5; 
+  background-color: white;
+}
+
+.logo-difa {
+  width: 70px;
+  height: 70px;
+}
+
+.menu-container {
+  display: flex;
+  flex-direction: row;
+  gap: 81px;
+}
+
+.menu-item {
+  font-size: 28;
+  font-weight: 500;
+  color: #000000;
+}
+
+.menu-item:hover {
+  font-weight: 700;
+  border-bottom: 3px solid #FF6700;
+}
+
+.welcome-container {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  padding: 80px 100px 80px 100px;
+  gap: 130px
+}
+
+.welcome-image-container {
+  padding: 18px;
+  background-color: #3A6EA5;
+  border-radius: 10px;
+}
+
+.welcome-photo-difa {
+  width: 314px;
+}
+
+.welcome-content-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.welcome-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.welcome-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: black;
+}
+
+.welcome-subtitle {
+  font-size: 52px;
+  font-weight: 700;
+  color: #004E98;
+  margin-top: 21px;
+}
+
+.welcome-description {
+  font-size: 24px;
+  font-weight: 500;
+  color: black;
+  font-style: italic;
+  text-align: center;
+  margin-top: 44px;
+}
+
+.welcome-button-container {
+  display: flex;
+  flex-direction: row;
+  gap: 50px;
+}
+
+.welcome-button {
+  padding: 12px 0px 12px 0px;
+  width: 214px;
+  border-radius: 50px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+#welcome-line-button {
+  background-color: white;
+  color: black;
+  border: 3px solid #FF6700;
+}
+
+#welcome-solid-button {
+  background-color: #FF6700;
+  color: white;
+  border: transparent;
+}
+
+.profile-container {
+  display: flex;
+  flex-direction: row;
+  padding: 80px 120px 80px 120px;
+  gap: 120px;
+}
+
+.profile-about-me {
+  max-width: 45%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #004E98;
+}
+
+.profile-decription {
+  font-size: 20px;
+  font-weight: 500;
+  color: black;
+  line-height: 30px;
+  margin-top: 38px;
+}
+
+.profile-button-container {
+  display: flex;
+  flex-direction: row;
+  gap: 19px;
+  margin-top: 92px;
+}
+
+.profile-button {
+  padding: 9px 0px 9px 0px;
+  width: 177px;
+  border-radius: 30px;
+  font-size: 22px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.profile-button-icon {
+  width: 36px;
+  height: 36ox;
+  margin-right: 10px;
+}
+
+#profile-button-linkedin {
+  background-color: #0077B5;
+  border: transparent;
+  color: white;
+}
+
+#profile-button-github {
+  background-color: black;
+  border: transparent;
+  color: white;
+}
+
+.profile-education {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-education-item {
+  display: flex;
+  flex-direction: row;
+  background-color: #E3F2FD;
+  padding-top: 24px;
+  padding-bottom: 24px;
+  padding-left: 32px;
+  padding-right: 32px;
+  margin-top: 38px;
+  border-radius: 20px;
+  border: 2px solid #3A6EA5;
+  gap: 30px;
+  align-items: center;
+}
+
+.profile-education-iamge {
+  background-color: white;
+  border-radius: 10px;
+  padding: 4px;
+  width: 200px;
+  height: 110px;
+}
+
+.profile-education-text-title {
+  font-size: 24px;
+  font-weight: 700;
+  color: black;
+}
+
+.profile-education-text-subtitle {
+  font-size: 14px;
+  font-weight: 500;
+  color: black;
+  font-style: italic;
+  margin-bottom: 15px;
+}
+
+.profile-education-text-description {
+  font-size: 16px;
+  font-weight: 500;
+  color: black;
+}
+
+.experience-container {
+  display: flex;
+  padding: 80px 100px 80px 100px;
+  background-color: white;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.experience-item-container {
+  display: flex;
+  flex-direction: column;
+  padding-left: 21px;
+  padding-right: 21px;
+  align-items: center;  
+  border: 3px solid #004E98;
+  border-radius: 20px;
+  max-width: 25%;
+  padding-bottom: 50px;
+}
+
+.experience-item-image {
+  width: 300px;
+  border-bottom: 2px solid #E5E5E5;
+  margin-top: 42px;
+  padding-bottom: 45px;
+}
+
+.experience-item-text-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 24px;
+}
+
+.experience-item-title {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.experience-item-subtitle {
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.experience-item-subtitle-second {
+  font-size: 14px;
+  font-weight: 500;
+  font-style: italic;
+  text-align: center;
+  margin-bottom: 16px;
+}
+
+.experience-item-description {
+  font-size: 14px;
+  font-weight: 500;
+  text-align: justify;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 47px;
+  padding: 80px 100px;
+  background-color: white;
+}
+
+.projects-item-container {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #004E98;
+  border-radius: 10px;
+  justify-content: space-between; 
+}
+
+.projects-item-image-container {
+  background-color: #E3F2FD;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  padding: 12px;
+  display: flex;
+  align-items: center;
+}
+
+.projects-item-image {
+  width: 105px;
+}
+
+.projects-item-text-container {
+  margin-left: 18px;
+  padding-top: 18px;
+  padding-right: 12px;
+  padding-bottom: 18px;
+}
+
+.projects-item-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 13px;
+}
+
+.projects-item-description {
+  margin-left: 16px;
+  margin-bottom: 8px;
+}
+
+.projects-item-description .projects-item-description-second {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.projects-empty-image {
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+}
