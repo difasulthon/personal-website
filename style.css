@@ -17,6 +17,10 @@
   align-items: center;
   border-bottom: 3px solid #E5E5E5; 
   background-color: white;
+  position: sticky;
+  top: 0;
+  left: 0;
+  right: 0;
 }
 
 .logo-difa {
@@ -39,6 +43,7 @@
 .menu-item:hover {
   font-weight: 700;
   border-bottom: 3px solid #FF6700;
+  cursor: pointer;
 }
 
 .welcome-container {
@@ -108,6 +113,11 @@
   font-weight: 500;
 }
 
+.welcome-button:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
+
 #welcome-line-button {
   background-color: white;
   color: black;
@@ -165,6 +175,11 @@
   align-items: center;
   justify-content: center;
   flex-direction: row;
+}
+
+.profile-button:hover {
+  cursor: pointer;
+  opacity: 0.5;
 }
 
 .profile-button-icon {
