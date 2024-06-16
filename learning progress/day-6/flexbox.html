@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>FlexBox</title>
+</head>
+<style>
+  * {
+    margin: 0;
+    padding: 0;
+  }
+  /* NavBar */
+  .container-navbar {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(219, 219, 240);
+    align-items: center;
+  }
+  
+  .list-menu {
+    display: flex;
+  }
+
+  .menu-navbar {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .logo {
+    margin-right: 20px;
+    width: 125px;
+    height: 32px;
+  }
+
+  .logo-example {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+  }
+
+  .logo-icon {
+    width: 135px;
+    height: 40px;
+  }
+
+  /* Grid css */
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    height: 100%;
+    border: 2px solid red
+  }
+
+  .grid-container h1 {
+    grid-row-start: 2;
+    grid-column-start: 1;
+    grid-column-end: 8;
+  }
+
+  .grid-container p {
+    grid-row-start: 3;
+    grid-column-start: 1;
+    grid-column-end: 8;
+  }
+
+  .list-button {
+    grid-row-start: 4;
+    grid-column-start: 1;
+    grid-column-end: 5;
+  }
+
+  .picture {
+    grid-column-start: 8;
+    grid-column-end: 13;
+    width: 320px;
+    height: 640px;
+    grid-row-start: 1;
+    grid-row-end: 5;
+
+  }
+
+  /* Flex */
+  .hero {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .content {
+    /* width: 500; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .image {
+    display: flex;
+    /* width: 499; */
+    justify-content: center;
+  }
+</style>
+<body>
+  <!-- <div class="flex-container">
+    <div class="item">Satu</div>
+    <div class="item">Dua</div>
+    <div class="item">Tiga</div>
+    <div class="item">Empat</div>
+    <div class="item">Lima</div>
+    <div class="item">Enam</div>
+    <div class="item">Tujuh</div>
+  </div> -->
+
+  <div class="container-navbar">    
+    <div class="list-menu">
+      <img src="https://placehold.co/600x400/png" alt="" class="logo">
+
+      <div class="menu-navbar">
+        <a href="">Feature</a>
+        <a href="">Pricing</a>
+        <a href="">Service</a>
+        <a href="">Blog</a>
+      </div>
+    </div>
+
+    <div class="logo-example">
+      <img src="https://placehold.co/135x40/png" alt="" class="logo-icon">
+      <img src="https://placehold.co/135x40/png" alt="" class="logo-icon">
+    </div>
+  </div>
+
+  <!-- Grid -->
+   <div class="grid-container">
+    <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam inventore dignissimos veniam illum. Magnam nam ipsum tenetur pariatur, rem amet qui illum harum aliquid delectus non natus! Ratione, assumenda necessitatibus?</p>
+    <div class="list-button">
+      <button>Get Started</button>
+      <button>Download CV</button>
+    </div>
+    <img src="https://placehold.co/320x640/png" alt="" class="picture">
+   </div>
+
+   <!-- Flex -->
+   <div class="hero">
+    <div class="content">
+      <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam inventore dignissimos veniam illum. Magnam nam ipsum tenetur pariatur, rem amet qui illum harum aliquid delectus non natus! Ratione, assumenda necessitatibus?</p>
+      <div class="list-button">
+        <button>Get Started</button>
+        <button>Download CV</button>
+      </div>
+    </div>
+    <div class="image">
+      <img src="https://placehold.co/320x640/png" alt="" class="picture">
+    </div>
+   </div> 
+</body>
+</html>
