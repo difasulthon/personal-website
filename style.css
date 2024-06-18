@@ -7,6 +7,16 @@
   text-decoration: none;
 }
 
+:root {
+  --primary-color: #004E98;
+  --secondary-color: #FF6700;
+  --tertiary-color: #3A6EA5;
+  --border-color: #E5E5E5;
+  --background-color: white;
+  --background-secondary-color: #E3F2FD;
+  --text-color: black;
+}
+
 .navbar {
   display: flex;
   flex-direction: row;
@@ -16,8 +26,8 @@
   padding-bottom: 5px;
   padding-top: 10px;
   align-items: center;
-  border-bottom: 3px solid #E5E5E5; 
-  background-color: white;
+  border-bottom: 3px solid var(--border-color); 
+  background-color: var(--background-color);
   position: sticky;
   top: 0;
   left: 0;
@@ -38,18 +48,18 @@
 .menu-item {
   font-size: 28px;
   font-weight: 500;
-  color: #000000;
+  color: var(--text-color);
 }
 
 .menu-item:hover {
   font-weight: 700;
-  border-bottom: 3px solid #FF6700;
+  border-bottom: 3px solid var(--secondary-color);
   cursor: pointer;
 }
 
 .menu-item.active {
   font-weight: 700;
-  border-bottom: 3px solid #FF6700;
+  border-bottom: 3px solid var(--secondary-color);
   cursor: pointer;
 }
 
@@ -87,20 +97,20 @@
 .welcome-title {
   font-size: 36px;
   font-weight: 700;
-  color: black;
+  color: var(--text-color);
 }
 
 .welcome-subtitle {
   font-size: 52px;
   font-weight: 700;
-  color: #004E98;
+  color: var(--primary-color);
   margin-top: 21px;
 }
 
 .welcome-description {
   font-size: 24px;
   font-weight: 500;
-  color: black;
+  color: var(--text-color);
   font-style: italic;
   text-align: center;
   margin-top: 44px;
@@ -126,15 +136,15 @@
   opacity: 0.5;
 }
 
-#welcome-line-button {
-  background-color: white;
+.welcome-line-button {
+  background-color: var(--background-color);
   color: black;
-  border: 3px solid #FF6700;
+  border: 3px solid var(--secondary-color);
 }
 
-#welcome-solid-button {
-  background-color: #FF6700;
-  color: white;
+.welcome-solid-button {
+  background-color: var(--secondary-color);
+  color: var(--background-color);
   border: transparent;
 }
 
@@ -155,13 +165,13 @@
 .profile-title {
   font-size: 36px;
   font-weight: 700;
-  color: #004E98;
+  color: var(--primary-color);
 }
 
 .profile-decription {
   font-size: 20px;
   font-weight: 500;
-  color: black;
+  color: var(--text-color);
   line-height: 30px;
   margin-top: 38px;
 }
@@ -196,14 +206,14 @@
   margin-right: 10px;
 }
 
-#profile-button-linkedin {
-  background-color: #0077B5;
+.profile-button-linkedin {
+  background-color: var(--tertiary-color);
   border: transparent;
   color: white;
 }
 
-#profile-button-github {
-  background-color: black;
+.profile-button-black {
+  background-color: var(--text-color);
   border: transparent;
   color: white;
 }
@@ -217,20 +227,20 @@
 .profile-education-item {
   display: flex;
   flex-direction: row;
-  background-color: #E3F2FD;
+  background-color: var(--background-secondary-color);
   padding-top: 24px;
   padding-bottom: 24px;
   padding-left: 32px;
   padding-right: 32px;
   margin-top: 38px;
   border-radius: 20px;
-  border: 2px solid #3A6EA5;
+  border: 2px solid var(--tertiary-color);
   gap: 30px;
   align-items: center;
 }
 
-.profile-education-iamge {
-  background-color: white;
+.profile-education-image {
+  background-color: var(--background-color);
   border-radius: 10px;
   padding: 4px;
   width: 200px;
@@ -240,13 +250,13 @@
 .profile-education-text-title {
   font-size: 24px;
   font-weight: 700;
-  color: black;
+  color: var(--text-color);
 }
 
 .profile-education-text-subtitle {
   font-size: 14px;
   font-weight: 500;
-  color: black;
+  color: var(--text-color);
   font-style: italic;
   margin-bottom: 15px;
 }
@@ -254,13 +264,13 @@
 .profile-education-text-description {
   font-size: 16px;
   font-weight: 500;
-  color: black;
+  color: var(--text-color);
 }
 
 .experience-container {
   display: flex;
   padding: 100px 100px 60px 100px;
-  background-color: white;
+  background-color: var(--background-color);
   flex-direction: row;
   justify-content: space-between;
 }
@@ -271,7 +281,7 @@
   padding-left: 21px;
   padding-right: 21px;
   align-items: center;  
-  border: 3px solid #004E98;
+  border: 3px solid var(--primary-color);
   border-radius: 20px;
   max-width: 25%;
   padding-bottom: 50px;
@@ -279,7 +289,7 @@
 
 .experience-item-image {
   width: 300px;
-  border-bottom: 2px solid #E5E5E5;
+  border-bottom: 2px solid var(--border-color);
   margin-top: 42px;
   padding-bottom: 45px;
 }
@@ -329,13 +339,13 @@
 .projects-item-container {
   display: flex;
   flex-direction: row;
-  border: 2px solid #004E98;
+  border: 2px solid var(--primary-color);
   border-radius: 10px;
   justify-content: space-between; 
 }
 
 .projects-item-image-container {
-  background-color: #E3F2FD;
+  background-color: var(--background-secondary-color);
   border-top-left-radius: 10px;
   border-bottom-left-radius: 10px;
   padding: 12px;
