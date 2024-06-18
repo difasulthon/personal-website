@@ -5,23 +5,34 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Difa Sulthon</title>
   <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
 </head>
 <body>
   <!-- navigation -->
-  <div class="navbar">
-    <img src="./images/logo.png" alt="difasulthon" class="logo-difa">
-    <div class="menu-container">
-      <a href="#welcome" class="menu-item">Welcome</a>
-      <a href="#Profile" class="menu-item">Profile</a>
-      <a href="#experience" class="menu-item">Experience</a>
-      <a href="#projects" class="menu-item">Projects</a>
-    </div>
-  </div>
+   <header class="bg-white border-b-2 border-gray-200">
+    <nav class="flex justify-between items-center w-[92%] mx-auto stciky top-0 left-0 right-0">
+      <div>
+        <img class="w-16" src="./images/logo.png" alt="logo">
+      </div>
+      <div class="nav-links duration-500 md:static absolute bg-white md:min-h-fit min-h-[32vh] left-0 top-[-100%] md:w-auto  w-full flex items-center px-5">
+        <ul class="flex md:flex-row flex-col md:items-center md:gap-[4vw] gap-8">
+          <li><a class="hover:text-gray-500 menu-item" href="#welcome">Welcome</a></li>
+          <li><a class="hover:text-gray-500 menu-item" href="#Profile">Profile</a></li>
+          <li><a class="hover:text-gray-500 menu-item" href="#experience">Experience</a></li>
+          <li><a class="hover:text-gray-500 menu-item" href="#projects">Projects</a></li>
+        </ul>
+      </div>
+      <div class="flex items-center">
+        <ion-icon onclick="onToggleMenu(this)" name="menu" class="text-3xl cursor-pointer md:hidden"></ion-icon>
+      </div>
+    </nav>
+  </header>
 
   <!-- Welcome -->
    <section class="welcome-container" id="welcome">
     <div class="welcome-image-container">
-      <img src="./images/difa-photo.png" alt="Difa Sulthon" class="welcome-photo-difa">
+      <img src="./images/difa-photo.png" alt="Difa Sulthon" class="welcome-photo-difa max-w-none">
     </div>
     <div class="welcome-content-container">
       <div class="welcome-text-container">
@@ -93,7 +104,7 @@
   <!-- Experience -->
    <section id="experience" class="experience-container">
     <div class="experience-item-container">
-      <img src="./images/jenius-logo.png" alt="jenius" class="experience-item-image">
+      <img src="./images/jenius-logo.png" alt="jenius" class="experience-item-image max-w-none">
       <div class="experience-item-text-container">
         <h3 class="experience-item-title">Front End Developer</h3>
         <h4 class="experience-item-subtitle">PT. Bank Tabungan Pensiunan Nasional</h4>
@@ -108,7 +119,7 @@
     </div>
     </div>
     <div class="experience-item-container">
-      <img src="./images/xsis-logo.png" alt="xsis" class="experience-item-image">
+      <img src="./images/xsis-logo.png" alt="xsis" class="experience-item-image max-w-none">
       <div class="experience-item-text-container">
         <h3 class="experience-item-title">Software Engineer</h3>
         <h4 class="experience-item-subtitle">PT. Xsis Mitra Utama</h4>
@@ -122,7 +133,7 @@
     </div>
     </div>
     <div class="experience-item-container">
-      <img src="./images/kalbe-logo.png" alt="kalbe" class="experience-item-image">
+      <img src="./images/kalbe-logo.png" alt="kalbe" class="experience-item-image max-w-none">
       <div class="experience-item-text-container">
         <h3 class="experience-item-title">Mobile Developer</h3>
         <h4 class="experience-item-subtitle">PT.  Kalbe Farma</h4>
@@ -141,7 +152,7 @@
   <section id="projects" class="projects-container">
     <div class="projects-item-container">
       <div class="projects-item-image-container">
-        <img src="./images/jenius-transaction.png" alt="jenius-tarnsaction" class="projects-item-image">
+        <img src="./images/jenius-transaction.png" alt="jenius-tarnsaction" class="projects-item-image max-w-none">
       </div>
       <div class="projects-item-text-container">
         <h5 class="projects-item-title">Jenius (Transaction)</h5>
@@ -169,7 +180,7 @@
     </div>
     <div class="projects-item-container">
       <div class="projects-item-image-container">
-        <img src="./images/jenius-cc.png" alt="jenius-tarnsaction" class="projects-item-image">
+        <img src="./images/jenius-cc.png" alt="jenius-tarnsaction" class="projects-item-image max-w-none">
       </div>
       <div class="projects-item-text-container">
         <h5 class="projects-item-title">Jenius (Credit Card)</h5>
@@ -184,7 +195,7 @@
     </div>
     <div class="projects-item-container">
       <div class="projects-item-image-container">
-        <img src="./images/jenius-transaction.png" alt="jenius-tarnsaction" class="projects-item-image">
+        <img src="./images/jenius-transaction.png" alt="jenius-tarnsaction" class="projects-item-image max-w-none">
       </div>
       <div class="projects-item-text-container">
         <h5 class="projects-item-title">Jenius (Transaction)</h5>
@@ -212,7 +223,7 @@
     </div>
     <div class="projects-item-container">
       <div class="projects-item-image-container">
-        <img src="./images/jenius-cc.png" alt="jenius-tarnsaction" class="projects-item-image">
+        <img src="./images/jenius-cc.png" alt="jenius-tarnsaction" class="projects-item-image max-w-none">
       </div>
       <div class="projects-item-text-container">
         <h5 class="projects-item-title">Jenius (Credit Card)</h5>
@@ -230,7 +241,7 @@
   <!-- Footer -->
   <section class="footer-container">
     <p class="footer-text">© 2024 <strong>Difa Sulthon</strong></p>
-    <img src="./images/logo.png" alt="logo" width="20">
+    <img src="./images/logo.png" alt="logo" width="20" class="max-w-none">
     <p class="footer-text">This website is designed and created by Muhammad Difa Sulthon Diani</p>
   </section>
 </body>
