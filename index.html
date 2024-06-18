@@ -9,17 +9,17 @@
 <body>
   <!-- navigation -->
   <div class="navbar">
-    <img src="./images//logo.png" alt="difasulthon" class="logo-difa">
+    <img src="./images/logo.png" alt="difasulthon" class="logo-difa">
     <div class="menu-container">
-      <h1 class="menu-item">Welcome</h1>
-      <h1 class="menu-item">Profile</h1>
-      <h1 class="menu-item">Experience</h1>
-      <h1 class="menu-item">Projects</h1>
+      <a href="#welcome" class="menu-item">Welcome</a>
+      <a href="#Profile" class="menu-item">Profile</a>
+      <a href="#experience" class="menu-item">Experience</a>
+      <a href="#projects" class="menu-item">Projects</a>
     </div>
   </div>
 
   <!-- Welcome -->
-   <div class="welcome-container">
+   <section class="welcome-container" id="welcome">
     <div class="welcome-image-container">
       <img src="./images/difa-photo.png" alt="Difa Sulthon" class="welcome-photo-difa">
     </div>
@@ -34,14 +34,14 @@
           </p>
       </div>
       <div class="welcome-button-container">
-        <button class="welcome-button" id="welcome-line-button">texted me</button>
-        <button class="welcome-button" id="welcome-solid-button">download CV</button>
+        <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mdifasulthon@gmail.com" target="_blank" class="welcome-button" id="welcome-line-button">texted me</a>
+        <a href="./assets/resume.pdf" class="welcome-button" id="welcome-solid-button" target="_blank">download CV</a>
       </div>
     </div>
-   </div>
+   </section>
 
   <!-- Profile -->
-  <div class="profile-container">
+  <section class="profile-container" id="Profile">
     <div class="profile-about-me">
       <h2 class="profile-title">About Me</h2>
       <p class="profile-decription">
@@ -53,18 +53,18 @@
         Back End Developer, QA/Tester, Product Owner, or other stakeholders to achieve goals and deliver the best software product.
       </p>
       <div class="profile-button-container">
-        <button class="profile-button" id="profile-button-linkedin">
+        <a href="https://www.linkedin.com/in/difasulthon/" class="profile-button" id="profile-button-linkedin" target="_blank">
           <img src="./images/linkedin.png" alt="linkedin" class="profile-button-icon">
           <p>Connect</p>
-        </button>
-        <button class="profile-button" id="profile-button-github">
+        </a>
+        <a href="https://github.com/difasulthon" class="profile-button" id="profile-button-github" target="_blank">
           <img src="./images/github.png" alt="linkedin" class="profile-button-icon">
           <p>Follow</p>
-        </button>
-        <button class="profile-button" id="profile-button-github">
-          <img src="./images/github.png" alt="linkedin" class="profile-button-icon">
+        </a>
+        <a href="https://medium.com/@mdifasulthon" class="profile-button" id="profile-button-github" target="_blank">
+          <img src="./images/medium.png" alt="linkedin" class="profile-button-icon">
           <p>Follow</p>
-        </button>
+        </a>
       </div>
     </div>
     <div class="profile-education">
@@ -88,10 +88,10 @@
       </div>
       </div>
     </div>
-  </div>
+  </section>
 
   <!-- Experience -->
-   <div class="experience-container">
+   <section id="experience" class="experience-container">
     <div class="experience-item-container">
       <img src="./images/jenius-logo.png" alt="jenius" class="experience-item-image">
       <div class="experience-item-text-container">
@@ -135,10 +135,10 @@
         </p>
     </div>
     </div>
-   </div>
+   </section>
 
    <!-- Projects -->
-  <div class="projects-container">
+  <section id="projects" class="projects-container">
     <div class="projects-item-container">
       <div class="projects-item-image-container">
         <img src="./images/jenius-transaction.png" alt="jenius-tarnsaction" class="projects-item-image">
@@ -268,6 +268,7 @@
         <p ><strong>Tech:</strong> Javascript, React Native, Unit Test using Jest, GraphQL, Git (Bitbucket)</p>
       </div>
     </div>
-  </div>
+  </section>
 </body>
+<script src="scripts.js"></script>
 </html>
