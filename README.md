@@ -15,7 +15,7 @@ Here is my current personal website. This website contains various information a
 
 This is an example of how this website looks like. This is the welcome page.
 
-![Welcome Page](Welcome.png)
+![Welcome Page](./images/Welcome.png)
 
 ## Design
 
